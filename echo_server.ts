@@ -1,6 +1,6 @@
 import { serve } from "https://deno.land/std@0.168.0/http/server.ts";
 
-const port = 8080;
+const port = 80;
 
 const handler = (request: Request): Response => {
   const body = `
